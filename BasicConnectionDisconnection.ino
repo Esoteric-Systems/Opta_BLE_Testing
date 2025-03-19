@@ -12,7 +12,7 @@ int value = 500;
 unsigned long lastCharacteristicScan = 0;
 
 // memory printing
-inline void print_memory_stats() {
+void print_memory_stats() {
   mbed_stats_heap_t heap;
   mbed_stats_heap_get(&heap);
 
